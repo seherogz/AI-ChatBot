@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sol taraf - Sohbet listesi -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Sohbetler</h2>
+                <button id="new-chat-btn" class="new-chat-button">
+                    <span>+</span> Yeni sohbet
+                </button>
+            </div>
+            <div class="chat-list" id="chat-list">
+                <!-- Sohbet geçmişi buraya eklenecek -->
+            </div>
+        </div>
+
+        <!-- Sağ taraf - Chat arayüzü -->
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>AI Chatbot</h1>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    Merhaba! Size nasıl yardımcı olabilirim?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Mesajınızı yazın...">
+                <button id="send-button">Gönder</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Silme onay modalı -->
+    <div class="modal-overlay" id="delete-modal">
+        <div class="modal">
+            <div class="modal-title">Sohbeti Sil</div>
+            <p>Bu sohbeti silmek istediğinizden emin misiniz?</p>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-cancel" id="cancel-delete">İptal</button>
+                <button class="modal-btn modal-btn-delete" id="confirm-delete">Sil</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
