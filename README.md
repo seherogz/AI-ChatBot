@@ -10,12 +10,15 @@ Bu proje, sıkça sorulan sorulara (FAQ) yanıt veren veya OpenAI API üzerinden
 - **HTML/CSS**: Web arayüzü tasarımı için.
 - **OpenAI API**: Yapay zeka sohbet ve yanıtlar için.
 
-## Özellikler
+##Uygulamanın Özellikleri
 
-- Kullanıcı dostu web arayüzü.
-- OpenAI API ile entegre sohbet özelliği.
-- Sıkça Sorulan Sorular (FAQ) modülü.
-- Gerçek zamanlı yanıtlar.
+- **Gerçek Zamanlı Yanıtlar**: Kullanıcının sorduğu sorulara, OpenAI API üzerinden anında yanıt alınır.
+- **Sohbet Oluşturma**: Yeni bir konuşma başlatılabilir ve sistem bu konuşmayı kayıt altına alır.
+- **Sohbet Güncelleme**: Mevcut sohbetlerin başlıkları veya içerikleri istenirse düzenlenebilir.
+- **Sohbet Silme**: Kullanıcılar, istemedikleri sohbet geçmişlerini silebilir.
+- **Sıkça Sorulan Sorular (FAQ)**: Belirli konular için özelleştirilmiş yanıtlar sunularak chatbot’un bilgilendirici yönü güçlendirilir.
+- **Kullanıcı Arayüzü**: HTML ve CSS ile oluşturulan sade, anlaşılır ve kullanıcı dostu bir arayüz mevcuttur.
+
 
 ## Fonksiyonel Gereksinimler
 
@@ -34,20 +37,19 @@ Bu proje, sıkça sorulan sorulara (FAQ) yanıt veren veya OpenAI API üzerinden
 ## Kurulum ve Kullanım
 
 1. **Projeyi Klonlayın**
-   ```bash
+   
    git clone https://github.com/seherogz/AI-ChatBot.git
    cd AI-ChatBot
-   ```
+   
 
 2. **Bağımlılıkları Yükleyin**
-   ```bash
    npm install
-   ```
+
 
 3. **OpenAI API Anahtarını Ekleyin**
    - `config.js` veya `.env` dosyasına OpenAI API anahtarınızı ekleyin.
 
 4. **Uygulamayı Başlatın**
-   ```bash
+   
    npm start
-   ```
+   
