@@ -340,7 +340,7 @@ body::before {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .container {
         padding: 15px;
     }
@@ -352,7 +352,7 @@ body::before {
     }
     
     .name {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .project-header h2,
